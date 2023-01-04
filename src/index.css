@@ -1,13 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto Mono', monospace;
+  background: rgb(245, 240, 238);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #777;
+}
+
+.navbar .links {
+  margin-left: auto;
+  
+}
+
+.navbar a {
+  margin-left: 16px;
+  padding: 6px;
+  color: black;
+}
+
+.navbar a:hover {
+  color: #777;
+}
+
+.content {
+  max-width: 700px;
+  margin: 40px auto;
+}
+
+.book-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1rem;
+  margin: auto;
+}
+
+.book-card {
+  background: white;
+  width: 180px;
+  height: 250px;
+  padding: 10px;
+  border: 1px solid #333;
+}
+
+.book-card h4 {
+  margin: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.book-card img{
+  width: 100%;
+  height: 100%;
+}
+
+.sort-filter {
+  margin-bottom: 1rem;
+  display: flex;
+}
+
+.sort-filter form {
+  margin-right: 30px;
+}
+
+.sort-filter select {
+  padding: 5px;
+  margin: 3px 0;
+  width: 175px;
+}
+
+.sort-filter button {
+  border: 1px solid black;
+  background: lightblue;
+  padding: 5px;
+  border-radius: 3px;
+  margin-left: 10px;
+}
+
+.welcome {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.book-collection {
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.book-collection h2 {
+  margin-top: -0.25rem;
+}
+
+.book-detail-container {
+  margin: auto;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.book-detail {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.book-detail button {
+  border: 1px solid black;
+  background: lightblue;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.book-detail .book-cover {
+  width: 300px;
+}
+
+.book-detail .book-information {
+  width: 300px;
+}
+
+.book-detail .book-cover img {
+  width: 100%;
+  height: 100%;
+}
+
+.tag {
+  background: lightblue;
+  padding: 2px 8px;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.add {
+  margin: auto;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid black;
+}
+
+.add h2 {
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.add input{
+  width: calc(100% - 15px);
+  padding: 5px;
+  margin: 3px 0;
+}
+
+.add select {
+  width: 100%;
+  padding: 5px;
+  margin: 3px 0;
+}
+
+.add button {
+  width: 100%;
+  padding: 10px;
+  margin: auto;
+  background: lightblue;
+  border: 1px solid black;
+  border-radius: 5px;
 }

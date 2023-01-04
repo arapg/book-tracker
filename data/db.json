@@ -1,0 +1,60 @@
+{
+  "books": [
+    {
+      "title": "Dracula",
+      "author": "Bram Stoker",
+      "cover": "https://cdn.penguin.co.uk/dam-assets/books/9780099582595/9780099582595-jacket-large.jpg",
+      "category": "horror",
+      "read": false,
+      "id": 2
+    },
+    {
+      "title": "1984",
+      "author": "George Orwell",
+      "cover": "https://m.media-amazon.com/images/I/51K84pomCRL._AC_SY780_.jpg",
+      "category": "dystopia",
+      "read": "true",
+      "id": 3
+    },
+    {
+      "title": "Mafioso",
+      "author": "Ray Celestin",
+      "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1629452231i/58814714.jpg",
+      "category": "mystery",
+      "read": "true",
+      "id": 4
+    },
+    {
+      "title": "Frankenstein",
+      "author": "Mary Shelley",
+      "cover": "https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781982146160/frankenstein-9781982146160_hr.jpg",
+      "category": "horror",
+      "read": false,
+      "id": 5
+    },
+    {
+      "title": "To Kill A Mockingbird",
+      "author": "Harper Lee",
+      "cover": "https://media.glamour.com/photos/56e1f3c462b398fa64cbd30b/master/w_1600%2Cc_limit/entertainment-2016-02-17-main.jpg",
+      "category": "thriller",
+      "read": false,
+      "id": 6
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "cover": "https://kbimages1-a.akamaihd.net/ad12ce73-aa34-473e-9a53-77a50360c239/1200/1200/False/pride-prejudice-13.jpg",
+      "category": "romance",
+      "read": false,
+      "id": 7
+    },
+    {
+      "title": "The Hunger Games",
+      "author": "John Steinbeck",
+      "cover": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Of_Mice_and_Men_%281937_1st_ed_dust_jacket%29.jpg",
+      "category": "history",
+      "read": "false",
+      "id": 8
+    }
+  ]
+}
