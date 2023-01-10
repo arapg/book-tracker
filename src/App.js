@@ -13,9 +13,9 @@ function App() {
       <div className="content">
         <Routes>
           <Route path="/book-tracker" element={<Home/>}/>
-          <Route path="/add" element={<AddBooks/>}/>
-          <Route path="/books" element={<Books/>}/>
-          <Route path="/books/:id" element={<BookDetails/>}/>
+          <Route path="/book-tracker/add" element={<AddBooks/>}/>
+          <Route path="/book-tracker/books" element={<Books/>}/>
+          <Route path="/book-tracker/books/:id" element={<BookDetails/>}/>
         </Routes>
         
       </div>
