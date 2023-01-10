@@ -8,7 +8,7 @@ function Books() {
     const [books, setBooks] = useState(null);
     const [isLoading, setIsLoading] = useState(true);
 
-    let url = 'http://localhost:3500/books/';
+    let url = 'https://my-json-server.typicode.com/arapg/book-tracker-database/books';
 
     useEffect(() => {
         fetch(url)

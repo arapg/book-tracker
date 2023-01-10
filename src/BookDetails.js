@@ -3,18 +3,18 @@ import useFetch from "./useFetch";
 
 function BookDetails() {
     const {id} = useParams();
-    const {data: book, isLoading } = useFetch(`http://localhost:3500/books/${id}`);
+    const {data: book, isLoading } = useFetch(`https://my-json-server.typicode.com/arapg/book-tracker-database/books/${id}`);
     const navigate = useNavigate();
 
     const deleteBook = (id) => {
-        fetch(`http://localhost:3500/books/${id}`, {method: 'DELETE'})
+        fetch(`https://my-json-server.typicode.com/arapg/book-tracker-database/books/${id}`, {method: 'DELETE'})
             .then(() => {
                 navigate('/');
             })
     };
 
     const markRead = (id) => {
-        fetch(`http://localhost:3500/books/${id}`, {
+        fetch(`https://my-json-server.typicode.com/arapg/book-tracker-database/books/${id}`, {
             method: 'PATCH',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(
@@ -28,7 +28,7 @@ function BookDetails() {
     }
 
     const markUnread = (id) => {
-        fetch(`http://localhost:3500/books/${id}`, {
+        fetch(`https://my-json-server.typicode.com/arapg/book-tracker-database/books/${id}`, {
             method: 'PATCH',
             headers: {"Content-Type": "application/json"},
             body: JSON.stringify(

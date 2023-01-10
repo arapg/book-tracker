@@ -19,7 +19,7 @@ function AddBooks() {
         e.preventDefault();
         const newBook = {title, author, cover, category, read};
 
-        fetch('http://localhost:3500/books/', {
+        fetch('https://my-json-server.typicode.com/arapg/book-tracker-database/books', {
             method: 'POST',
             headers: { "Content-Type": "application/json"},
             body: JSON.stringify(newBook)

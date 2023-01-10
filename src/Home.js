@@ -4,7 +4,7 @@ import useFetch from './useFetch';
 
 function Home() {
 
-    const { data: books, isLoading } = useFetch('http://localhost:3500/books?_sort=id&_order=desc&_limit=3');
+    const { data: books, isLoading } = useFetch('https://my-json-server.typicode.com/arapg/book-tracker-database/books?_sort=id&_order=desc&_limit=3');
 
     return (
         <div className="home">
