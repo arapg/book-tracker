@@ -18,3 +18,4 @@ To get the database up and running. This is needed for the application to be abl
 
 - [ ] Search bar
 - [ ] Google Books API
+- [ ] Reset button for Sort and Filter
